@@ -21,8 +21,8 @@ texture:
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
-  showPicker: true
+  showNav: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
@@ -42,4 +42,4 @@ texture:
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-feed
