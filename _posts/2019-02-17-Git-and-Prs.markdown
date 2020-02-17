@@ -32,7 +32,7 @@ ssh-keygen
 ```
 
 You can press enter until it ends, the standard options are good enough.
-![ssh](./images/ssh.png)
+![ssh](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/ssh.png)
 
 ssh-keygen creates the two keys and we must give the one with `.pub` to GitHub. You can go to your home folder and find it on `.ssh` or, after opening a terminal, type:
 
@@ -45,11 +45,11 @@ cat id_rsa.pub
 Great! :D 
 Now we must paste it in GitHub's setting page. To that, you can go to your settings, clicking in your avatar:
 
-![github main page](./images/github_pag_inicial.png)
+![github main page](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/github_pag_inicial.png)
 
 Once in Settings, click on SSH and GPG keys. Click on new key on the right of SSH Keys and paste your key, giving it a name you'll remember.
 
-![github ssh page](./images/github_ssh.png)
+![github ssh page](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/github_ssh.png)
 
 Nice! Now we need to create a repository so we put things onto it. Go back to the main page and click New on the top left.
 
@@ -78,7 +78,7 @@ So, to answer the first two, a Pull Request, or PR, is what we do when we want t
 
 A git branch is a copy of your code where you can do the craziest things imaginable without changing the main code, which we call *master*. Here is a picture that helps:
 
-![All credit to Atlassian](./images/branch.png)
+![All credit to Atlassian](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/branch.png)
 
 A branch is a way we can work in an organised way when a lot of people is dealing with a lot of problems at once. So how do we create one? In `your_repository` folder in the terminal, type this:
 ```
@@ -86,7 +86,7 @@ git checkout -b your_branch_name
 ```
 The `-b` indicates you want to create a new branch with the name `your_branch_name ` and checkout is the function you use to create (using `-b`) a new one or change to an existing one (without `-b`). You should receive a message like this:
 
-![All credit to Atlassian](./images/terminal_branches.png)
+![All credit to Atlassian](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/terminal_branches.png)
 
 Now we should create a file, so git can push this branch with something on it. You then create a file with nothing inside using, for example:
 ```
@@ -103,17 +103,17 @@ Add is, well, to add what you did (`.` indicates `here` in terminal language). C
 
 So, what about that error that the terminal gave you when you tried to run `git push`?
 
-![](./images/giterror.png)
+![](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/giterror.png)
 
 Fear you not! It's just GitHub telling git that it doesn't know this new branch you created. Fortunately, git gives you the correct command, so you can just paste it and be free, like in the image.
 
 To finish this lengthy text, we must now go to GitHub page to create a new pull request (if you look closely, git gave us the link in terminal to go there directly).
 
-![All credit to Atlassian](./images/prpage.png)
+![All credit to Atlassian](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/prpage.png)
 
 You can type a brief description of what you did and voilá, we made our PR. You can now share with friends and enemies this new code that you want to add to your repository. (By the way, the title of the PR is the same text you typed in the message. Smart, right? :3)
 
 This is a daily practice to a software engineer in the industry and, as soon we get to understand it and master (haha) it, sooner we will not even remember that was a problem one day. Thank you :)
 
-![All credit to Atlassian](./images/crunchify.png)
+![All credit to Atlassian](https://raw.githubusercontent.com/mlgubolin/mlgubolin.github.io/master/assets/images/crunchify.png)
 
