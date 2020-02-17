@@ -17,8 +17,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: Maria Lucia Gubolin
+  tagline: Developer. Guitarist.
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
